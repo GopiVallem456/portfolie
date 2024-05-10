@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo">
+          My Portfolli
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="Home">
+    <div class="con">
+        <div class="header-text">
+            <p>Fontentd Developer</p>
+            <h1>Hi, I'm <span>Gopi<br></span>Vallem from Palanadu
+            </h1>
+        </div>
+        <div class="prf">
+            <div>
+                <img src="my pic (2).jpeg" alt="">
+            </div>
+            <div>
+                <a href="My Resume.pdf" download class="download-btn"><button>Download-CV
+                    <i class="fa-solid fa-cloud-arrow-down"></i></button>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="Socail">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+</section>
+
+    
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+<p>My, Self This is Gopi Vallem. Iam studying 2/4 B.Tech In ANITS.
+my Branch is IT Department,I completed my diploma in guntur Chalapatgi Intstitute of technology.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, voluptate sint maiores temporibus sunt 
+pariatur eum magni in qui animi ea incidunt est vitae natus officia maxime blanditiis reprehenderit sit!
+</p>
+<div class="tab-titles">
+    <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+    <P class="tab-links" onclick="opentab('hobbies')">Hobbies</P>
+    <P class="tab-links" onclick="opentab('education')">Education</P>
+</div>
+<div class="tab-content active-tab" id="skills">
+    <ul>
+        <li><span>Web Development</span><br>web app development</li>
+        <li><span>Python</span><br>programing</li>
+        <li><span>Communictaion</span><br>Good speaking skills</li>
+    </ul>
+</div>
+<div class="tab-content" id="hobbies">
+    <ul>
+        <p>Playing Cricket<p>
+        <p>Watching Anime</p>
+        <p>Listing Music</p>
+    </ul>
+</div>
+<div class="tab-content" id="education">
+    <ul>
+        <li><span>2020</span><br>Secondary Education</li>
+        <li><span>2023</span><br>Diploma CSM</li>
+        <li><span>2024</span><br>B.TECH IT</li>
+    </ul>
+</div>
+    </div>
+</section>
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Bird behavior and populace patterns have become a significant issue now a days. Birds
+                help us to recognize different life forms on the earth effectively as they react rapidly to
+                ecological changes. Be that as it may, assembling and gathering data about bird species
+                requires immense human exertion just as it turns into an extremely costly technique. In
+                such a case, a solid framework that will give enormous scale preparation of data about
+                birds and will fill in as a significant apparatus for scientists, legislative offices, and so
+                forth is required. In this way, bird species distinguishing proof assumes a significant job
+                in recognizing that a specific picture of birds has a place with which categories. Bird
+                species identification means predicting the bird species belongs to which category by
+                using an image.
+                The recognition of bird species can be possible through a picture, audio or video.</p>
+                <a href="project1.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Forms are frequently used in internet user data collection tactics. You can obtain crucial information about your target audiences, such as their age, work status, geographic location, tastes and preferences, and pain issues, with the help of a well-designed survey form. This HTML assignment is a great chance to show off your knowledge of form design and webpage structure. 
+               A survey form is simple to create. To develop forms, you must become familiar with the basic HTML tags and input fields. Then, using the tags, you can create a text field, checkbox, radio button, date, and other essential form elements. CSS can be used once more to improve the look and feel of your form and webpage</p>
+            <a href="project3.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>The basic information for a work portfolio, such as your name and image, projects, specialised talents, and interests, will be included on the web page you make for this project. If you'd like, you may also host the entire portfolio on GitHub using your GitHub account and include your resume. 
+                A header and footer section should be present on the portfolio page. A menu highlighting your contact details, employment history, and personal information will be included in the header area. You can provide a brief description of your professional background and hobbies along with your photo at the top of the page</p>
+            <a href="project2.html">View Project</a>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="script.js">
+</script>
+</body>
+</html>
